@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  WoWthing Sync
+
+  Created by Steven W. Riggins on 7/17/22.
+  
+*/
+
+"PATH_TO_RETAIL" = "Path to \"\_retail\_\"";

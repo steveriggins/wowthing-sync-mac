@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0020A4D82884FD7D006FCD0D /* WoWthing_SyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */; };
+		0020A4DA2884FD7D006FCD0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4D92884FD7D006FCD0D /* ContentView.swift */; };
+		0020A4DC2884FD7E006FCD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020A4DB2884FD7E006FCD0D /* Assets.xcassets */; };
+		0020A4DF2884FD7E006FCD0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020A4DE2884FD7E006FCD0D /* Preview Assets.xcassets */; };
+		0020A4EA2884FD7F006FCD0D /* WoWthing_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4E92884FD7F006FCD0D /* WoWthing_SyncTests.swift */; };
+		0020A4F42884FD7F006FCD0D /* WoWthing_SyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4F32884FD7F006FCD0D /* WoWthing_SyncUITests.swift */; };
+		0020A4F62884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */; };
+		0020A51028850D8C006FCD0D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0020A51228850D8C006FCD0D /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0020A4E62884FD7F006FCD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0020A4CC2884FD7D006FCD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0020A4D32884FD7D006FCD0D;
+			remoteInfo = "WoWthing Sync";
+		};
+		0020A4F02884FD7F006FCD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0020A4CC2884FD7D006FCD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0020A4D32884FD7D006FCD0D;
+			remoteInfo = "WoWthing Sync";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0020A4D42884FD7D006FCD0D /* WoWthing Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoWthing Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncApp.swift; sourceTree = "<group>"; };
+		0020A4D92884FD7D006FCD0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0020A4DB2884FD7E006FCD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0020A4DE2884FD7E006FCD0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0020A4E02884FD7E006FCD0D /* WoWthing_Sync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WoWthing_Sync.entitlements; sourceTree = "<group>"; };
+		0020A4E52884FD7F006FCD0D /* WoWthing SyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoWthing SyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0020A4E92884FD7F006FCD0D /* WoWthing_SyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncTests.swift; sourceTree = "<group>"; };
+		0020A4EF2884FD7F006FCD0D /* WoWthing SyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoWthing SyncUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0020A4F32884FD7F006FCD0D /* WoWthing_SyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncUITests.swift; sourceTree = "<group>"; };
+		0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0020A51128850D8C006FCD0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0020A4D12884FD7D006FCD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4E22884FD7F006FCD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4EC2884FD7F006FCD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0020A4CB2884FD7D006FCD0D = {
+			isa = PBXGroup;
+			children = (
+				0020A4D62884FD7D006FCD0D /* WoWthing Sync */,
+				0020A4E82884FD7F006FCD0D /* WoWthing SyncTests */,
+				0020A4F22884FD7F006FCD0D /* WoWthing SyncUITests */,
+				0020A4D52884FD7D006FCD0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0020A4D52884FD7D006FCD0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0020A4D42884FD7D006FCD0D /* WoWthing Sync.app */,
+				0020A4E52884FD7F006FCD0D /* WoWthing SyncTests.xctest */,
+				0020A4EF2884FD7F006FCD0D /* WoWthing SyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0020A4D62884FD7D006FCD0D /* WoWthing Sync */ = {
+			isa = PBXGroup;
+			children = (
+				0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */,
+				0020A50D28850D73006FCD0D /* Localized */,
+				0020A4D92884FD7D006FCD0D /* ContentView.swift */,
+				0020A4DB2884FD7E006FCD0D /* Assets.xcassets */,
+				0020A4E02884FD7E006FCD0D /* WoWthing_Sync.entitlements */,
+				0020A4DD2884FD7E006FCD0D /* Preview Content */,
+			);
+			path = "WoWthing Sync";
+			sourceTree = "<group>";
+		};
+		0020A4DD2884FD7E006FCD0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0020A4DE2884FD7E006FCD0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0020A4E82884FD7F006FCD0D /* WoWthing SyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				0020A4E92884FD7F006FCD0D /* WoWthing_SyncTests.swift */,
+			);
+			path = "WoWthing SyncTests";
+			sourceTree = "<group>";
+		};
+		0020A4F22884FD7F006FCD0D /* WoWthing SyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0020A4F32884FD7F006FCD0D /* WoWthing_SyncUITests.swift */,
+				0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */,
+			);
+			path = "WoWthing SyncUITests";
+			sourceTree = "<group>";
+		};
+		0020A50D28850D73006FCD0D /* Localized */ = {
+			isa = PBXGroup;
+			children = (
+				0020A51228850D8C006FCD0D /* Localizable.strings */,
+			);
+			path = Localized;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0020A4D32884FD7D006FCD0D /* WoWthing Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0020A4F92884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing Sync" */;
+			buildPhases = (
+				0020A4D02884FD7D006FCD0D /* Sources */,
+				0020A4D12884FD7D006FCD0D /* Frameworks */,
+				0020A4D22884FD7D006FCD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WoWthing Sync";
+			productName = "WoWthing Sync";
+			productReference = 0020A4D42884FD7D006FCD0D /* WoWthing Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0020A4E42884FD7F006FCD0D /* WoWthing SyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0020A4FC2884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing SyncTests" */;
+			buildPhases = (
+				0020A4E12884FD7F006FCD0D /* Sources */,
+				0020A4E22884FD7F006FCD0D /* Frameworks */,
+				0020A4E32884FD7F006FCD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0020A4E72884FD7F006FCD0D /* PBXTargetDependency */,
+			);
+			name = "WoWthing SyncTests";
+			productName = "WoWthing SyncTests";
+			productReference = 0020A4E52884FD7F006FCD0D /* WoWthing SyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0020A4EE2884FD7F006FCD0D /* WoWthing SyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0020A4FF2884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing SyncUITests" */;
+			buildPhases = (
+				0020A4EB2884FD7F006FCD0D /* Sources */,
+				0020A4EC2884FD7F006FCD0D /* Frameworks */,
+				0020A4ED2884FD7F006FCD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0020A4F12884FD7F006FCD0D /* PBXTargetDependency */,
+			);
+			name = "WoWthing SyncUITests";
+			productName = "WoWthing SyncUITests";
+			productReference = 0020A4EF2884FD7F006FCD0D /* WoWthing SyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0020A4CC2884FD7D006FCD0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0020A4D32884FD7D006FCD0D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					0020A4E42884FD7F006FCD0D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0020A4D32884FD7D006FCD0D;
+					};
+					0020A4EE2884FD7F006FCD0D = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0020A4D32884FD7D006FCD0D;
+					};
+				};
+			};
+			buildConfigurationList = 0020A4CF2884FD7D006FCD0D /* Build configuration list for PBXProject "WoWthing Sync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0020A4CB2884FD7D006FCD0D;
+			productRefGroup = 0020A4D52884FD7D006FCD0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0020A4D32884FD7D006FCD0D /* WoWthing Sync */,
+				0020A4E42884FD7F006FCD0D /* WoWthing SyncTests */,
+				0020A4EE2884FD7F006FCD0D /* WoWthing SyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0020A4D22884FD7D006FCD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0020A4DF2884FD7E006FCD0D /* Preview Assets.xcassets in Resources */,
+				0020A51028850D8C006FCD0D /* Localizable.strings in Resources */,
+				0020A4DC2884FD7E006FCD0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4E32884FD7F006FCD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4ED2884FD7F006FCD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0020A4D02884FD7D006FCD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0020A4DA2884FD7D006FCD0D /* ContentView.swift in Sources */,
+				0020A4D82884FD7D006FCD0D /* WoWthing_SyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4E12884FD7F006FCD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0020A4EA2884FD7F006FCD0D /* WoWthing_SyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0020A4EB2884FD7F006FCD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0020A4F62884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift in Sources */,
+				0020A4F42884FD7F006FCD0D /* WoWthing_SyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0020A4E72884FD7F006FCD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0020A4D32884FD7D006FCD0D /* WoWthing Sync */;
+			targetProxy = 0020A4E62884FD7F006FCD0D /* PBXContainerItemProxy */;
+		};
+		0020A4F12884FD7F006FCD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0020A4D32884FD7D006FCD0D /* WoWthing Sync */;
+			targetProxy = 0020A4F02884FD7F006FCD0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0020A51228850D8C006FCD0D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0020A51128850D8C006FCD0D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0020A4F72884FD7F006FCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0020A4F82884FD7F006FCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0020A4FA2884FD7F006FCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WoWthing Sync/WoWthing_Sync.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WoWthing Sync/Preview Content\"";
+				DEVELOPMENT_TEAM = 869E762K34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0020A4FB2884FD7F006FCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WoWthing Sync/WoWthing_Sync.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WoWthing Sync/Preview Content\"";
+				DEVELOPMENT_TEAM = 869E762K34;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0020A4FD2884FD7F006FCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 869E762K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWthing Sync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WoWthing Sync";
+			};
+			name = Debug;
+		};
+		0020A4FE2884FD7F006FCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 869E762K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWthing Sync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WoWthing Sync";
+			};
+			name = Release;
+		};
+		0020A5002884FD7F006FCD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 869E762K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WoWthing Sync";
+			};
+			name = Debug;
+		};
+		0020A5012884FD7F006FCD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 869E762K34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steveriggins.WoWthing-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "WoWthing Sync";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0020A4CF2884FD7D006FCD0D /* Build configuration list for PBXProject "WoWthing Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0020A4F72884FD7F006FCD0D /* Debug */,
+				0020A4F82884FD7F006FCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0020A4F92884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0020A4FA2884FD7F006FCD0D /* Debug */,
+				0020A4FB2884FD7F006FCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0020A4FC2884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing SyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0020A4FD2884FD7F006FCD0D /* Debug */,
+				0020A4FE2884FD7F006FCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0020A4FF2884FD7F006FCD0D /* Build configuration list for PBXNativeTarget "WoWthing SyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0020A5002884FD7F006FCD0D /* Debug */,
+				0020A5012884FD7F006FCD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0020A4CC2884FD7D006FCD0D /* Project object */;
+}
