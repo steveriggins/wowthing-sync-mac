@@ -16,6 +16,7 @@
 		0020A4F62884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */; };
 		0020A51028850D8C006FCD0D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0020A51228850D8C006FCD0D /* Localizable.strings */; };
 		0051B7B6288516F100317FDA /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051B7B5288516F100317FDA /* SettingsViewModel.swift */; };
+		00A45AC92885321900DAEC09 /* FolderSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A45AC82885321900DAEC09 /* FolderSelectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0020A51128850D8C006FCD0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0051B7B5288516F100317FDA /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		00A45AC82885321900DAEC09 /* FolderSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */,
 				0020A50D28850D73006FCD0D /* Localized */,
 				0020A4D92884FD7D006FCD0D /* SettingsView.swift */,
+				00A45AC82885321900DAEC09 /* FolderSelectionView.swift */,
 				0051B7B5288516F100317FDA /* SettingsViewModel.swift */,
 				0020A4DB2884FD7E006FCD0D /* Assets.xcassets */,
 				0020A4E02884FD7E006FCD0D /* WoWthing_Sync.entitlements */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0020A4DA2884FD7D006FCD0D /* SettingsView.swift in Sources */,
+				00A45AC92885321900DAEC09 /* FolderSelectionView.swift in Sources */,
 				0020A4D82884FD7D006FCD0D /* WoWthing_SyncApp.swift in Sources */,
 				0051B7B6288516F100317FDA /* SettingsViewModel.swift in Sources */,
 			);
