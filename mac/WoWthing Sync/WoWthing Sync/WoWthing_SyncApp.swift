@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct WoWthing_SyncApp: App {
+	@StateObject var settings = SettingsViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SettingsView()
+				.environmentObject(settings)
         }
     }
 }

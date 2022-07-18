@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0020A4D82884FD7D006FCD0D /* WoWthing_SyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */; };
-		0020A4DA2884FD7D006FCD0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4D92884FD7D006FCD0D /* ContentView.swift */; };
+		0020A4DA2884FD7D006FCD0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4D92884FD7D006FCD0D /* SettingsView.swift */; };
 		0020A4DC2884FD7E006FCD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020A4DB2884FD7E006FCD0D /* Assets.xcassets */; };
 		0020A4DF2884FD7E006FCD0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0020A4DE2884FD7E006FCD0D /* Preview Assets.xcassets */; };
 		0020A4EA2884FD7F006FCD0D /* WoWthing_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4E92884FD7F006FCD0D /* WoWthing_SyncTests.swift */; };
 		0020A4F42884FD7F006FCD0D /* WoWthing_SyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4F32884FD7F006FCD0D /* WoWthing_SyncUITests.swift */; };
 		0020A4F62884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */; };
 		0020A51028850D8C006FCD0D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0020A51228850D8C006FCD0D /* Localizable.strings */; };
+		0051B7B6288516F100317FDA /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051B7B5288516F100317FDA /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		0020A4D42884FD7D006FCD0D /* WoWthing Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoWthing Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncApp.swift; sourceTree = "<group>"; };
-		0020A4D92884FD7D006FCD0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0020A4D92884FD7D006FCD0D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0020A4DB2884FD7E006FCD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0020A4DE2884FD7E006FCD0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0020A4E02884FD7E006FCD0D /* WoWthing_Sync.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WoWthing_Sync.entitlements; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		0020A4F32884FD7F006FCD0D /* WoWthing_SyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncUITests.swift; sourceTree = "<group>"; };
 		0020A4F52884FD7F006FCD0D /* WoWthing_SyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWthing_SyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0020A51128850D8C006FCD0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0051B7B5288516F100317FDA /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 			children = (
 				0020A4D72884FD7D006FCD0D /* WoWthing_SyncApp.swift */,
 				0020A50D28850D73006FCD0D /* Localized */,
-				0020A4D92884FD7D006FCD0D /* ContentView.swift */,
+				0020A4D92884FD7D006FCD0D /* SettingsView.swift */,
+				0051B7B5288516F100317FDA /* SettingsViewModel.swift */,
 				0020A4DB2884FD7E006FCD0D /* Assets.xcassets */,
 				0020A4E02884FD7E006FCD0D /* WoWthing_Sync.entitlements */,
 				0020A4DD2884FD7E006FCD0D /* Preview Content */,
@@ -271,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0020A4DA2884FD7D006FCD0D /* ContentView.swift in Sources */,
+				0020A4DA2884FD7D006FCD0D /* SettingsView.swift in Sources */,
 				0020A4D82884FD7D006FCD0D /* WoWthing_SyncApp.swift in Sources */,
+				0051B7B6288516F100317FDA /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
