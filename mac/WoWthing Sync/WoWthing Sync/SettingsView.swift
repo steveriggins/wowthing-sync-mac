@@ -14,7 +14,7 @@ struct SettingsView: View {
 		VStack(alignment: .leading) {
 			Text("WoWthing Sync")
 				.font(.system(size: 24))
-			FolderSelectionView(folderPath: settings.folderPath)
+			FolderSelectionView()
 				.padding(EdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4))
 		}
 		.padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))

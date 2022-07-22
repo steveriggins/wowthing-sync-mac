@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FolderSelectionView: View {
-	@State var folderPath: String
+	@EnvironmentObject var settings: SettingsViewModel
 	@State var folderPickerPresented = false
 	var placeholder: String = String(localized: "PATH_TO_RETAIL")
 	
@@ -16,7 +16,7 @@ struct FolderSelectionView: View {
 		HStack {
 			Text("Folder:")
 			HStack {
-				TextField(placeholder, text: $folderPath)
+				TextField(placeholder, text: $settings.folderPath)
 					.autocorrectionDisabled(true)
 				Button(action: {
 					folderPickerPresented = true
@@ -32,9 +32,7 @@ struct FolderSelectionView: View {
 			) { result in
 				do {
 					guard let url: URL = try result.get().first else { return }
-					let path = url.path(percentEncoded: false)
-					folderPath = path
-					
+					settings.useFolder(url)
 				} catch {
 					// Handle failure.
 				}
@@ -45,9 +43,9 @@ struct FolderSelectionView: View {
 
 struct FolderSelectionVIew_Previews: PreviewProvider {
 	static var previews: some View {
-		FolderSelectionView(folderPath: "")
+		FolderSelectionView()
 			.previewDisplayName("Placeholder")
-		FolderSelectionView(folderPath: "/Test/Dummies/Path/")
+		FolderSelectionView()
 			.previewDisplayName("Path")
 	}
 }
